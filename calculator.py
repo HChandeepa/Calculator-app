@@ -28,6 +28,8 @@ def clear_field():
     
 
 root=tk.Tk()
+root.title("Calculator")
+root.iconbitmap(r'G:\Github\Calculator-app\images\calculator1.png')  
 root.geometry("300x300")
 text_result=tk.Text(root,height=2,width=16,font=("Ariel",24))
 text_result.grid(columnspan=5)
